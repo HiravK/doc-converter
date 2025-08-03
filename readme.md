@@ -1,5 +1,3 @@
-Here’s a README.md file for your Streamlit Doc Converter project, written professionally and optimized for clarity and usability:
-
 # 📄 Doc Converter
 
 A lightweight Streamlit web app that allows you to convert between:
@@ -77,3 +75,4 @@ doc-converter/
 
 Created by Hirav Kadikar — feel free to reach out for feedback or contributions.
 Email - contact@hirav.me
+
