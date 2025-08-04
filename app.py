@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(page_title="Doc Converter", layout="wide")
 st.sidebar.title("Doc Converter Tools")
 from converters.Batchjpg2pdf import batch_jpg_to_pdf
-from Watermarkremover import remove_watermark_tool
+
 
 def ocr_tool():
     import pytesseract
@@ -32,7 +32,6 @@ tool = st.sidebar.selectbox("Choose conversion", [
     "Merge PDFs",
     "Compress PDF",
     "Batch JPG to PDF",
-    "Remove PDF Watermark",
     "OCR"
 ])
 
@@ -67,8 +66,6 @@ elif tool == "Compress PDF":
 elif tool == "Batch JPG to PDF":
     batch_jpg_to_pdf()
 
-elif tool == "Remove PDF Watermark":
-    remove_watermark_tool()
 
 elif tool == "OCR":
     ocr_tool()
