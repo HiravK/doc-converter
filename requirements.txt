@@ -1,0 +1,6 @@
+streamlit
+pdf2docx
+docx2pdf
+PyPDF2
+Pillow
+fitz or pymupdf (depending on environment, use one)

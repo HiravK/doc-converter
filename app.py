@@ -1,8 +1,8 @@
 import streamlit as st
 st.set_page_config(page_title="Doc Converter", layout="wide")
 st.sidebar.title("Doc Converter Tools")
-from converters.batch_jpg_to_pdf import batch_jpg_to_pdf
-from pdf_tools.remove_watermark import remove_watermark_tool
+from converters.Batchjpg2pdf import batch_jpg_to_pdf
+from Watermarkremover import remove_watermark_tool
 
 def ocr_tool():
     import pytesseract
